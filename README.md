@@ -7,14 +7,6 @@ physical AI systems. It turns a small set of scene templates into perturbation-h
 test plans that can be used to reason about sim-to-real coverage before expensive lab
 or field experiments.
 
-## Research + Money Thesis
-
-Physical AI and open world models are moving from demos into robotics, vision AI,
-autonomous systems and industrial digital twins. The money question is whether teams can
-generate enough high-value validation data before paying for real-world test time. This
-project measures scenario diversity, sensor stress and safety margin coverage with a
-simple auditable model.
-
 ## How It Works
 
 ```text
@@ -40,13 +32,6 @@ python -m pytest -q
 python -m physical_ai_data_factory --scenes 12 --seed 7
 python -m physical_ai_data_factory --scenes 40 --seed 11 --json
 ```
-
-## Silicon Valley Interview Hook
-
-The `validation_readiness_report()` API converts synthetic scenes into a lab-spend
-decision: stress-mode coverage, missing perturbations, high-risk templates and the top
-priority scenarios to run first. That makes the project defensible as an AI validation
-planning tool rather than a random data generator.
 
 ## Status
 
