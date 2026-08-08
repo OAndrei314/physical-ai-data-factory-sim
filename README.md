@@ -38,13 +38,21 @@ pip install -r requirements-dev.txt
 pip install -e .
 python -m pytest -q
 python -m physical_ai_data_factory --scenes 12 --seed 7
+python -m physical_ai_data_factory --scenes 40 --seed 11 --json
 ```
+
+## Silicon Valley Interview Hook
+
+The `validation_readiness_report()` API converts synthetic scenes into a lab-spend
+decision: stress-mode coverage, missing perturbations, high-risk templates and the top
+priority scenarios to run first. That makes the project defensible as an AI validation
+planning tool rather than a random data generator.
 
 ## Status
 
-MVP: deterministic scenario generation, risk scoring, coverage aggregation and tests.
-Next steps: add richer scene fixtures for optical-module handling, mobile robot inspection
-and automated lab validation cells.
+MVP: deterministic scenario generation, risk scoring, coverage aggregation, lab-readiness
+reporting and tests. Next steps: add richer scene fixtures for optical-module handling,
+mobile robot inspection and automated lab validation cells.
 
 ## License
 
